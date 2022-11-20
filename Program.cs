@@ -42,4 +42,15 @@ void GetResultArray(string[] arrayOne, string[] resultArray)
         }
     }
 }
+void PrintArray(string[] array)
+{
+    Console.WriteLine("Результат сортировки введенного массива: ");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.WriteLine($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+GetResultArray(arrayOne, resultArray);
+PrintArray(resultArray);
 
